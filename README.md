@@ -32,3 +32,18 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## TODO: check prisma/graphql integration:
+
+https://www.prisma.io/blog/fullstack-nextjs-graphql-prisma-oklidw1rhw
+https://github.com/prisma/awesome-links
+https://github.com/planetscale/nextjs-planetscale-starter
+https://github.com/prisma/prisma-examples/tree/latest/typescript/rest-nextjs-api-routes-auth
+
+https://dev.to/prisma/passwordless-authentication-with-next-js-prisma-and-next-auth-5g8g
+
+https://bedrock.mxstbr.com/#tools
+https://github.com/mxstbr/bedrock/tree/main/src/pages
+https://github.com/mxstbr/bedrock/blob/main/docs/1-architecture.md
+
+https://github.com/prisma/prisma-examples/tree/latest/typescript/rest-nextjs-api-routes-auth
