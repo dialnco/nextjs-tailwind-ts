@@ -33,12 +33,18 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
+## prima
+
+https://www.prisma.io/docs/concepts/components/prisma-client/relation-queries
+
 ## TODO: check prisma/graphql integration:
 
 https://www.prisma.io/blog/fullstack-nextjs-graphql-prisma-oklidw1rhw
+https://www.prisma.io/blog/fullstack-nextjs-graphql-prisma-2-fwpc6ds155
 https://github.com/prisma/awesome-links
 https://github.com/planetscale/nextjs-planetscale-starter
 https://github.com/prisma/prisma-examples/tree/latest/typescript/rest-nextjs-api-routes-auth
+https://github.com/prisma/prisma-examples/blob/latest/typescript/rest-nextjs-api-routes-auth/pages/api/post/index.ts
 
 https://dev.to/prisma/passwordless-authentication-with-next-js-prisma-and-next-auth-5g8g
 
@@ -47,6 +53,13 @@ https://github.com/mxstbr/bedrock/tree/main/src/pages
 https://github.com/mxstbr/bedrock/blob/main/docs/1-architecture.md
 
 https://github.com/prisma/prisma-examples/tree/latest/typescript/rest-nextjs-api-routes-auth
+
+// example flow
+https://docs.planetscale.com/tutorials/automatic-prisma-migrations
+https://docs.planetscale.com/tutorials/prisma-data-platform-integration
+
+// next-auth
+https://github.com/nextauthjs/next-auth-typescript-example
 
 Video for prisma setup
 https://www.youtube.com/watch?v=5JpKZfPx-1k
