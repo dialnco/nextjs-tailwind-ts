@@ -47,3 +47,33 @@ https://github.com/mxstbr/bedrock/tree/main/src/pages
 https://github.com/mxstbr/bedrock/blob/main/docs/1-architecture.md
 
 https://github.com/prisma/prisma-examples/tree/latest/typescript/rest-nextjs-api-routes-auth
+
+Video for prisma setup
+https://www.youtube.com/watch?v=5JpKZfPx-1k
+https://www.youtube.com/watch?v=qEBEo76gKK0
+
+## Working with Prisma
+
+### open connections
+
+`pscale connect <bd-name> <branch-name> --port 3309`
+`pscale connect <bd-name> shadow --port 3310`
+
+### add changes to schema and
+
+Generate prisma artifacts to localdev???
+https://www.prisma.io/docs/reference/api-reference/command-reference
+
+`prima generate`
+
+### add schema changes to connection branch
+
+migrate db schema
+`npx prisma migrate dev --name init`
+
+If branch is ok, add branch pull request to main, on planet scale dashboard.
+
+### Open studio
+
+`npx prisma studio`
+For local db studio
