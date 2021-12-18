@@ -8,12 +8,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next-auth/prisma-adapter": "^0.5.2-next.19",
     "@prisma/client": "^3.6.0",
     "next": "12.0.4",
+    "next-auth": "^4.0.5",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@types/next-auth": "^3.15.0",
     "@types/node": "16.11.10",
     "@types/react": "17.0.37",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
