@@ -65,7 +65,10 @@ Video for prisma setup
 https://www.youtube.com/watch?v=5JpKZfPx-1k
 https://www.youtube.com/watch?v=qEBEo76gKK0
 
-## Working with Prisma
+## Working with Prisma & PlanetScale
+
+Create new db on pscale, create initial branch (for working and tinkering) and shadow branch
+Set main as production branch (then working branch can do pull requests to main).
 
 ### open connections
 
