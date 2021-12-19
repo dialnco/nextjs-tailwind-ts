@@ -48,18 +48,13 @@ https://github.com/prisma/prisma-examples/blob/latest/typescript/rest-nextjs-api
 
 https://dev.to/prisma/passwordless-authentication-with-next-js-prisma-and-next-auth-5g8g
 
-https://bedrock.mxstbr.com/#tools
-https://github.com/mxstbr/bedrock/tree/main/src/pages
-https://github.com/mxstbr/bedrock/blob/main/docs/1-architecture.md
+https://dnlytras.com/snippets/nextjs-graphql-server/
 
 https://github.com/prisma/prisma-examples/tree/latest/typescript/rest-nextjs-api-routes-auth
 
 // example flow
 https://docs.planetscale.com/tutorials/automatic-prisma-migrations
 https://docs.planetscale.com/tutorials/prisma-data-platform-integration
-
-// next-auth
-https://github.com/nextauthjs/next-auth-typescript-example
 
 Video for prisma setup
 https://www.youtube.com/watch?v=5JpKZfPx-1k

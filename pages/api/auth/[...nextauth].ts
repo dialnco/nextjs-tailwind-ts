@@ -11,8 +11,8 @@ const options = {
   providers: [
     GoogleProvider({
       clientId: process.env.GOOGLE_CLIENT_ID,
-      clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-    }),
+      clientSecret: process.env.GOOGLE_CLIENT_SECRET
+    })
     // EmailProvider({
     //   server: {
     //     host: process.env.SMTP_HOST,
@@ -25,6 +25,14 @@ const options = {
     //   from: process.env.SMTP_FROM,
     // }),
   ],
+  callbacks: {
+    async session({ session, token, user }) {
+      // user object is user from db
+      session.userId = user.id; // set user id on session object
+      // session.dbUser = user
+      return session;
+    }
+  }
 };
 
 const authHandler: NextApiHandler = (req, res) => NextAuth(req, res, options);
