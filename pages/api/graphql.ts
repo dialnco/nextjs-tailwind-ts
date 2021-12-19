@@ -1,10 +1,13 @@
+import { PageConfig } from 'next';
 import { ApolloServer } from 'apollo-server-micro';
 import Cors from 'micro-cors';
 import { typeDefs } from '@/graphql/schema';
 import { resolvers } from '@/graphql/resolvers';
 import { createContext } from '@/graphql/context';
 
-const cors = Cors();
+// check if credentials working on studio
+const graphqlStudioConfigs = { origin: 'https://studio.apollographql.com', allowCredentials: true };
+const cors = Cors(graphqlStudioConfigs);
 
 const apolloServer = new ApolloServer({
   typeDefs,
@@ -26,7 +29,7 @@ export default cors(async function handler(req, res) {
   })(req, res);
 });
 
-export const config = {
+export const config: PageConfig = {
   api: {
     bodyParser: false
   }
