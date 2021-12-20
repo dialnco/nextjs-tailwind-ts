@@ -1,3 +1,4 @@
+import { PageConfig } from 'next';
 import { ApolloServer } from 'apollo-server-micro';
 import Cors from 'micro-cors';
 import { typeDefs } from '@/graphql/schema';
@@ -26,7 +27,7 @@ export default cors(async function handler(req, res) {
   })(req, res);
 });
 
-export const config = {
+export const config: PageConfig = {
   api: {
     bodyParser: false
   }
