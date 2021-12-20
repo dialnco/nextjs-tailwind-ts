@@ -1,15 +1,15 @@
 import '../styles/globals.css';
 import { SessionProvider } from 'next-auth/react';
 import type { AppProps } from 'next/app';
-import { ApolloProvider } from '@apollo/client';
-import apolloClient from '@/lib/apollo';
+import { Provider as UrqlProvider } from 'urql';
+import urqlClient from '@/lib/urql';
 
 function MyApp({ Component, pageProps: { session, ...pageProps } }: AppProps) {
   return (
     <SessionProvider session={session}>
-      <ApolloProvider client={apolloClient}>
+      <UrqlProvider value={urqlClient}>
         <Component {...pageProps} />
-      </ApolloProvider>
+      </UrqlProvider>
     </SessionProvider>
   );
 }

@@ -8,9 +8,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@apollo/client": "^3.5.6",
-    "@next-auth/prisma-adapter": "^0.5.2-next.19",
+    "@next-auth/prisma-adapter": "^1.0.1",
     "@prisma/client": "^3.6.0",
+    "@urql/exchange-graphcache": "^4.3.6",
     "apollo-server-micro": "^3.5.0",
     "graphql": "^15.6.0",
     "graphql-iso-date": "^3.6.1",
@@ -20,7 +20,8 @@
     "next-auth": "^4.0.5",
     "nexus": "^1.1.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "urql": "^2.0.6"
   },
   "devDependencies": {
     "@types/graphql-iso-date": "^3.4.0",

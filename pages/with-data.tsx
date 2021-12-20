@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import { gql, useQuery } from '@apollo/client';
+import { gql, useQuery } from 'urql';
 
 const AllUsersQuery = gql`
   query {
@@ -14,9 +14,11 @@ const AllUsersQuery = gql`
 `;
 
 const WithDataPage: NextPage = () => {
-  const { data, loading, error } = useQuery(AllUsersQuery);
+  const [{ data, fetching, error }, reexecuteQuery] = useQuery({
+    query: AllUsersQuery
+  });
 
-  if (loading) return <p>Loading...</p>;
+  if (fetching) return <p>Loading...</p>;
   if (error) return <p>Oh no... {error.message}</p>;
 
   return (
